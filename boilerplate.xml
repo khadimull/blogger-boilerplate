@@ -20,19 +20,20 @@
    
   </head>
   <body>
-   
-    <b:widget id='Blog1' locked='true' title='Articles du blog' type='Blog' visible='true'>
- 
-
-<!--Start Please keep the Credits intact-->
-<div style='margin-top:300px; '> 
-<center>
-  <p class='author'>&#169; <b>Frinton Madtha Productions</b> Collaboration with<a href='https://frinmash.blogspot.com/'> FrinMash </a></p></center></div>
-
-
-  <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'/>
-
-<!-- End Please keep the Credits intact-->
+    
+   <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='yes'>
+     <center><h1> Blank Blogger Template </h1></center>
+    </b:section>
+    
+    <b:section class='main' id='nmain' maxwidgets='5' showaddelement='yes'>
+     <center><h1> Main Section </h1></center>
+      <b:widget id='Blog1' locked='true' title='Articles du blog' type='Blog'/>
+    </b:section>
+    
+    <b:section class='mfooter' id='footer' maxwidgets='3' showaddelement='yes'>
+     <center><h1> Footer </h1></center>
+    </b:section>
+    
   </body> 
 </html>
 
